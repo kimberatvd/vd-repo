@@ -30,6 +30,11 @@ img {
   border: 0;
 }
 
+article {
+  border-top: 1px solid #999;
+  padding-top:25px;
+  clear:both;
+}
 
 /***** TYPOGRAPHY *****/
 a {
@@ -97,9 +102,9 @@ header {
     display: block;
     height: 160px;
     padding-bottom: 15px;
-    margin:0 0 15px 0;
-    border-bottom: 1px solid #808080;
-
+    margin:0;
+/*    border-bottom: 1px solid #808080;
+*/
     font-size: 15px;
     line-height: 1.5;
 }
@@ -366,8 +371,6 @@ SLIDESHOW STYLES
   position: relative;
 }
 
-.project.news
-
 .project-images {
   width: 100%;
   max-width: 1210px;
@@ -429,7 +432,15 @@ a.slidesjs-previous:hover div.previous-arrow, a.slidesjs-next:hover div.next-arr
   height: 681px;
 }
 
-
+/**** bios ****/
+.bio-section{
+float: left; margin-bottom: 30px;
+}
+.bio-photo {
+  float: left; margin-right: 29px;
+}
+.bio-section p:last-child {margin-bottom: 0;}
+.bio-section h1 {padding-bottom: 5px;}
 
 /*****  ISOTOPE ANIMATION STYLES  *****/
 .isotope,

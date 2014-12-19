@@ -19,13 +19,14 @@
 
 
 <?php if($page->images()->count() <= 2) :?>
-	<div class="project news">
-	    <?php if($page->hasImages()): ?> 
+	  <?php if($page->hasImages()): ?> 
+	  <div class="project news">
 	    <?php foreach($page->images()->filterBy('title', '!=', 'thumb') as $image): ?>
 	        <img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" />
 	    <?php endforeach ?>
-	    <?php endif ?>
-	</div>
+	  </div>
+	  <?php endif ?>
+
 <?php endif ?>
 
 

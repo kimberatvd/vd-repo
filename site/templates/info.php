@@ -5,6 +5,8 @@
 
     <article>
         <?php echo kirbytext($page->results()) ?>
+    </article>
+    <article>
         <?php echo kirbytext($page->about()) ?>
 
         <div class="project">
@@ -24,10 +26,23 @@
 
         </div>
     </div>
+</article>
+<article>
+    <?php foreach($page->children() as $bio): ?>
+    <div class="bio-section float">
+        <img src="<?php echo $bio->images()->first()->url() ?>" class="bio-photo float" />
+        <div class="three-col float last-child">
+            <h1><?php echo html($bio->title()) ?></h1>
+            <?php echo kirbytext($bio->bio()) ?>
+        </div> 
+    </div><!--bio section-->
+    <div style="clear:both;"></div>
+    <?php endforeach ?>
+</article>
+<article>
 
-        <?php echo kirbytext($page->bios()) ?>
         <?php echo kirbytext($page->awards()) ?>
-
+</article>
 
 <div style="clear:both;"></div>
     

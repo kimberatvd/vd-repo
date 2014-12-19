@@ -14,6 +14,7 @@
   /*footer*/
   footer .fourth {margin-right: 0;}
   footer .fourth form {margin-bottom: 10px;}
+  .bio-section .three-col {width: 468px;}
 }
 
 
@@ -51,6 +52,7 @@
   footer .fourth {margin-right: 13px;}
   footer .lastchild {margin-top: 10px;}
 
+  .bio-section .bio-photo {max-width: 228px;}
 }
 
 @media (max-width: 724px) {
@@ -71,8 +73,15 @@
   header ul li ul li a {padding: 0px;}
   /*proj area*/
   .vimeo, .video-container iframe {height: 274px !important;}
+
   /*news page*/
   .news-blurb {width:224px;}
+
+  /*bios*/
+  .bio-section, .bio-section .bio-photo {width:100%; max-width: 100%;margin-right:0;margin-bottom:10px;}
+  .bio-section{ margin-bottom:40px;}
+  .bio-section .three-col {height:auto;}
+
 }
 
 @media (max-width: 482px) {
@@ -104,6 +113,7 @@ header .first {display:none !important;}
 .project .slidesjs-navigation {display:none;}
 .project-images ul li {font-size: 12px;}
 .vimeo, .video-container iframe {height: auto !important;}
+
 
 /*footer*/
 .one-col img.facebook {float:left; height: 24px; width: 24px; margin-right: 5px;}
