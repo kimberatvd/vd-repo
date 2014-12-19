@@ -1,0 +1,514 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 101%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding: 0 10px;
+  margin: 30px auto;
+  background: #f7f7f7;
+
+  font-family: News Gothic, 'NewsGothic', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.wrapper {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+img {
+  outline: 0;
+  border: 0;
+}
+
+
+/***** TYPOGRAPHY *****/
+a {
+  color: #808080;
+  text-decoration: none;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  outline: 0px;
+}
+a:hover, a.active, {
+  color: #000;
+}
+
+.shortnews a {color: #333;}
+.shortnews a:hover {color:#fff;}
+
+h1 {
+padding: 0px 0 15px 0;
+
+color: #000;
+font-size: 30px;
+font-weight: normal;
+text-transform: lowercase;
+line-height: 32px;
+}
+
+h2 {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.shortnews h2 {color:#fff;}
+
+h3 {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+
+h4 {
+  color: #000;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.contact ul {padding-left: 15px;}
+
+.contact h2 {margin-top: 20px;}
+
+.client a {color: #000;}
+.client a:hover {color: #808080;}
+/***** HEADER *****/
+header {
+    display: block;
+    height: 160px;
+    padding-bottom: 15px;
+    margin:0 0 15px 0;
+    border-bottom: 1px solid #808080;
+
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+header div{
+  border-top: 1px solid #808080;
+  padding-top:10px;
+  float: left;
+  width: 230px;
+  margin-right: 15px;
+}
+
+header div:last-child, footer div:last-child {margin-right: 0;}
+header div.logo {border:none;padding:0;}
+.first ul {display: none;}
+header ul {list-style-type: none}
+header ul li {
+    min-height: 20px;
+    width:230px;
+    border: 0;
+    
+    color: #000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header ul li a {display: block;}
+header ul li ul {
+    display:none;
+    background: #fff;
+    width: 230px;
+}
+header ul li ul li {text-transform: lowercase;}
+header ul li:hover ul{
+    display:block;
+    z-index: 1000;
+    position: absolute;
+}
+
+.mobile-nav, .mobile {display:none;}
+
+.hamburger {
+  background: url('/assets/images/hamburger.png') 0 0;
+  height: 25px;
+  width: 30px;
+  float: right;
+  position: relative;
+  top:0;
+  right: 0;
+  z-index: 100000;
+  display: none;
+}
+
+a.hamburger:hover {
+  background-position: bottom;
+}
+
+
+section.content {
+  margin: 0 auto;
+  max-width: 1210px;
+}
+footer {
+  display:block;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #999;
+  font-size: 13px;
+  color: #808080;
+  height: 170px;
+}
+footer a {
+  color: #999;
+}
+footer a:hover {
+  color: #000;
+}
+
+.facebook {float:left; height: 24px; width: 24px; margin-right:5px;}
+.twitter {float:left; height: 24px; width: 30px;}
+footer .one-col.lastchild p {margin-top: 14px;}
+
+.shortnews {
+background-color: #808080;
+width: 97.5%;
+margin: 1px 1px 15px 1px;
+padding: 1.25% 1.25% 1% 1.25%;
+color: #fff;
+}
+
+.shortnews p {margin: 0;padding: 0;}
+
+
+
+.project-images ul li {list-style-type: none;margin-bottom: 15px;}
+.project-images img {height: 100%;width: 100%;}
+.project img {height: 100%;width: 100%;margin-bottom: 15px;}
+.project-description {margin-bottom:15px;}
+
+.upper{text-transform:uppercase;}
+.upper a{color: #808080;text-decoration: none;}
+.upper a:hover {color: #000;}
+
+.lower{text-transform:lowercase;}
+.lower a{color: #808080;text-decoration: none;}
+.lower a:hover {color: #000;}
+
+.scope ul li {list-style-type: none;color:#000; display:none;font-size: 12px; text-transform: uppercase;}
+.scope ul li.scope-on {display:block;}
+
+/*thumbnails*/
+#container{
+  width:100%;
+}
+
+div.thumbnails {
+  margin: 40px 0 0 0;
+  padding: 20px 0 0 0;
+  border-top: 1px solid #999;
+}
+.thumbnails.allpg {border-top: 0;margin: 0;padding:0;}
+
+.thumb {
+  float:left;
+  margin:1px;
+  
+}
+
+
+.thumb:after, .thumb:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.thumb:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+}
+.thumb:before {
+    content: attr(data-content);
+    font-size: 30px;
+    line-height: 1;
+    width:100%;
+    color:#fff;
+    z-index:1;
+    padding:5px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.thumb:hover:after, .thumb:hover:before {
+    opacity:1;
+}
+
+.hometext.thumb:hover:after, .hometext.thumb:hover:before {
+    opacity:0;
+}
+
+.onebyone {
+  width: 240px;
+  height: 164px;
+}
+
+.onebytwo {
+  width: 240px;
+  height: 330px;
+}
+
+.twobytwo {
+  width: 482px;
+  height: 330px;
+}
+
+.twobythree {
+  width: 482px;
+  height: 496px;
+}
+
+.onebyone img, .onebytwo img, .twobytwo img, .twobythree img, {width:100%;}
+
+.news {width:100%;}
+
+
+.hometext {
+  padding: 20px;
+  width: 442px;
+  height: 456px;
+  background-color: #c0c0c0;
+
+  font-size: 30px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.stamp {
+    position:relative;
+    left: 726px;
+}
+
+/***COLUMNS***/
+
+.one-col {width:230px; margin: 1px 13px 1px 1px;}
+.two-col {width: 468px; margin: 1px 20px 1px 1px;}
+.three-col {width: 720px; margin: 1px 13px 1px 1px;}
+.four-col {width: 946px; margin: 1px 13px 1px 1px;}
+.five-col {width:100%; margin: 1px 13px 1px 1px;}
+
+.last-child {margin-right: 0px;}
+
+.float {float:left;display:block;}
+.clear {clear:both;display: block;}
+
+.cm-form label {
+  width:50px;
+  display:inline-block;
+  padding:3px;
+}
+
+.cm-form input, .cm-form textarea { 
+    border:1px solid #aaa;
+    box-shadow: 0;
+    background-color: #f7f7f7;
+    padding:4px;
+    width:80%;
+}
+.cm-form input:focus, .cm-form textarea:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 0 #aaa; 
+}
+/* Button Style */
+button.submit {
+    font-family: News Gothic, 'NewsGothic', Arial, sans-serif;
+    font-size: 13px;
+    background-color: #808080;
+    border: 0;
+    color: white;
+    margin: -2px 0 0 -6px;
+    padding: 6px 6px 4px 7px;
+    text-align: center;
+    font-weight: normal
+}
+button.submit:hover {
+    opacity:.5;
+    cursor: pointer; 
+}
+
+
+
+
+/*****
+SLIDESHOW STYLES
+*****/
+#slides {display:none;}
+.slidesjs-navigation {}
+
+.project {
+  width: 100%;
+  max-width: 1210px;
+  max-height:843px;
+  margin:1px 1px 25px 1px;
+  position: relative;
+}
+
+.project.news
+
+.project-images {
+  width: 100%;
+  max-width: 1210px;
+  margin:1px;
+}
+
+.project .slidesjs-navigation {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  z-index: 10000; 
+}
+
+.project .slidesjs-previous {
+  left: 0;
+}
+
+.project .slidesjs-next {
+  right: 0;
+}
+
+div.previous-arrow {
+  background: url('/assets/images/left.png') 0 0;
+  height: 50px;
+  width: 50px;
+
+  position: relative;
+  z-index: 100000;
+  top: 45%;
+  
+  opacity:0.0;
+  filter:alpha(opacity=0); /* For IE8 and earlier */
+}
+
+div.next-arrow {
+  background: url('/assets/images/right.png') 0 0;
+  height: 50px;
+  width: 50px;
+
+  position: relative;
+  z-index: 100000;
+  top: 45%;
+  float:right;
+  
+  opacity:0.0;
+  filter:alpha(opacity=0); /* For IE8 and earlier */
+}
+
+a.slidesjs-previous:hover div.previous-arrow, a.slidesjs-next:hover div.next-arrow {
+  opacity:1;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+} 
+
+.vimeo, .video-container iframe {
+  width: 100%;
+  max-width: 1210px;
+  margin:1px 1px 20px 1px;
+  height: 681px;
+}
+
+
+
+/*****  ISOTOPE ANIMATION STYLES  *****/
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/*disabling Isotope CSS3 transitions*/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+
+
+/*****  WEBFONTS  *****/
+@font-face {
+  font-family: 'NewsGothic';
+  src: url('/assets/webfonts/10E07E_0.eot');
+  src: url('/assets/webfonts/10E07E_0.eot?#iefix') format('embedded-opentype'),
+       url('/assets/webfonts/10E07E_0.woff')format('woff'),
+       url('/assets/webfonts/10E07E_0.ttf') format('truetype'),
+       url('/assets/webfonts/10E07E_0.svg#wf')format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NewsGothic';
+  src: url('/assets/webfonts/10E07E_1.eot');
+  src: url('/assets/webfonts/10E07E_1.eot?#iefix') format('embedded-opentype'),
+       url('/assets/webfonts/10E07E_1.woff')format('woff'),
+       url('/assets/webfonts/10E07E_1.ttf') format('truetype'),
+       url('/assets/webfonts/10E07E_1.svg#wf')format('svg');
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NewsGothic';
+  src: url('/assets/webfonts/10E07E_2.eot');
+  src: url('/assets/webfonts/10E07E_2.eot?#iefix') format('embedded-opentype'),
+       url('/assets/webfonts/10E07E_2.woff')format('woff'),
+       url('/assets/webfonts/10E07E_2.ttf') format('truetype'),
+       url('/assets/webfonts/10E07E_2.svg#wf')format('svg');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'NewsGothic';
+  src: url('/assets/webfonts/10E07E_3.eot');
+  src: url('/assets/webfonts/10E07E_3.eot?#iefix') format('embedded-opentype'),
+       url('/assets/webfonts/10E07E_3.woff')format('woff'),
+       url('/assets/webfonts/10E07E_3.ttf') format('truetype'),
+       url('/assets/webfonts/10E07E_3.svg#wf')format('svg');
+  font-style: italic;
+  font-weight: 700;
+}

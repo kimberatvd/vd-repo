@@ -1,0 +1,116 @@
+﻿Title: Clients
+
+----
+
+Clients1: ###ARTS & NON-PROFIT
+Ad Club
+AIGA
+Climate XChange
+(link:/work/combined-jewish-philanthropies-brand-identity text:Combined Jewish Philanthropies +)
+Crasharts
+Dance Complex
+Frank Lloyd Wright Symposium
+Gardner Museum 
+(link: /work/ica-communications-materials text: ICA +)
+Industrial Designers Society of America
+Lafayette Park
+Landwave
+New York Public Radio/WNYC
+(link: /work/smithsonian-institution-websites text: Smithsonian Institution +)
+
+###EDUCATION
+(link: /work/art-institute-of-boston-admissions-materials text: Art Institute of Boston +)
+Boston University
+Brown University
+Cardigan Mountain School
+Harvard University
+Lesley University
+Massachusetts College of Art and Design
+May Institute 
+MIT Dept. of Urban Studies & Planning
+MIT Portugal
+
+###ENTERTAINMENT
+(link: /work/domino-s-pizza-sculpture text: Domino's Pizza +)
+HBO 
+MB Records
+Rounder Records 
+(link: /work/smithsonian-folkways-packaging text: Smithsonian Folkways +)
+(link: /work/smithsonian-institution-websites text: Smithsonian Institution +)
+TheHive.com 
+
+###FINANCIAL SERVICES
+1251 Capital Group
+Advent International
+Crystal Capital
+Hudson Capital Partners
+
+###HEALTH & SCIENCES
+Alere
+Broad Institute
+Cynosure
+Harvard Medical School
+Katherine Hein, M.D.
+(link: /work/hms-mass-eye-and-ear text: HMS/Mass Eye & Ear +)
+(link: /work/turn-it-around text: Massachusetts General Hospital +)
+(link: /work/mit-center-for-cancer-research-brochure text: MIT Center for Cancer Research +)
+Semequip
+
+----
+
+Clients2: ###HOSPITALITY
+(link: /work/barbara-lynch-restaurants-and-restaurant-group text: B&G Oysters +)
+(link: /work/barbara-lynch-restaurants-and-restaurant-group text: Barbara Lynch Gruppo +)
+(link: /work/belly text: Belly +)
+(link: /work/cambridge-office-for-tourism text: Cambridge Office for Tourism +)
+Central Bottle
+City Landing
+(link: /work/barbara-lynch-restaurants-and-restaurant-group text: Drink +)
+Fiorella’s
+(link: /work/himmel-hospitality text: Grill 23 +)
+(link: /work/himmel-hospitality text: Harvest +)
+(link: /work/himmel-hospitality text:Himmel Hospitality +)
+(link: /work/barbara-lynch-restaurants-and-restaurant-group text: No. 9 Park +)
+(link: /work/himmel-hospitality text:Post 390 +)
+(link: /work/barbara-lynch-restaurants-and-restaurant-group text: Sportello +)
+(link: /work/barbara-lynch-restaurants-and-restaurant-group text: Stir +)
+(link: /work/the-blue-room text: The Blue Room +)
+(link: /work/barbara-lynch-restaurants-and-restaurant-group text: 9 at Home +)
+
+###PROFESSIONAL SERVICES
+1251 Capital Group
+Agent
+Altitude
+Berkeley Investments
+Dialogos
+(link: /work/donoghue-barrett-singal text: Donoghue Barrett & Singal +)
+Elizabeth Allen Events
+Freshleaf
+Ground
+Huth Architects
+Incounsel
+(link: /work/the-innovation-and-design-building text: Jamestown Properties +)
+Kent Dayton Photography
+(link: /work/moshe-safdie-book text: Moshe Safdie +)
+Nucleus Research
+Pile and Company
+Process
+Schwilliamz
+Stubbins Associates
+Topic 101
+Ziba Boston
+
+###PUBLISHING
+Boston Magazine
+Fast Company
+(link: /work/colloquy text: Harvard Graduate School of Arts & Sciences +)
+Harvard Graduate School of Education
+L'Arca Magazine
+Perseus Publishing
+
+###RETAIL
+Comina
+Central Bottle
+Crabtree & Evelyn
+Good
+(link: /work/start-me-up-identity-packaging text: Start Me Up +)
