@@ -87,6 +87,14 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+
 p {
   margin-bottom: 20px;
 }

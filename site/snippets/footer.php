@@ -22,8 +22,8 @@
     <br/>
     <a href="/scope/advertising">advertising</a><br/>
     <a href="/scope/websites">websites</a><br/>
-		<a href="/scope/social-media-integration">social media integration</a><br/>
-		<a href="/scope/publication">publications</a><br/>
+		<a href="/scope/social-media-strategy">social media strategy</a><br/>
+		<a href="/scope/publications">publications</a><br/>
 		<a href="/scope/packaging">packaging</a><br/>
 		<a href="/scope/video">video</a><br/>
 

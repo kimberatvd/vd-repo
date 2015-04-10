@@ -1,0 +1,27 @@
+﻿Title: the innovation and design building website
+
+----
+
+Probsol: yesps
+
+----
+
+Problem: While it’s an iconic building in the fast growing Seaport District, this massive 1.4 million square foot structure on Dry Dock Avenue had not been the most desirable place to work. Even though the space offered flexible floor plans, high ceilings, and lots of natural light, the ambiance, amenities, and transportation options were lacking. Jamestown Properties of NYC has begun to transform the property into a vibrant destination to attract and foster an innovation community. But how do you tell the story to designers, makers, and start-ups who may have preconceived notions of this property?
+
+----
+
+Solution: Bringing together archival photos, architectural renderings, location pictures, and behind-the-scenes video, Visual Dialogue creates a dynamic, responsive website that conveys the energy of the building’s reinvention. Real-life stories of the companies working there and information about the Seaport area gives prospective tenants a real sense of the collaborative community that is growing at the Innovation and Design Building. Now the Innovation and Design Building has a website that lives up to its name.
+
+(link:http://idbldg.com text:idbldg.com popup:yes)
+
+----
+
+Scope: copy, web
+
+----
+
+Type: websites
+
+----
+
+Category: da

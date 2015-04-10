@@ -9,7 +9,7 @@
     <li <?php if(strpos($page->scope, 'identity') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/visual-identity">visual identity</a></li>
     <li <?php if(strpos($page->scope, 'ad') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/advertising">advertising</a></li>
     <li <?php if(strpos($page->scope, 'web') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/websites">websites</a></li>
-     <li <?php if(strpos($page->scope, 'smi') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/social-media-integration">social media integration</a></li>
+     <li <?php if(strpos($page->scope, 'sms') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/social-media-strategy">social media strategy</a></li>
     <li <?php if(strpos($page->scope, 'pub') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/publications">publications</a></li>
     <li <?php if(strpos($page->scope, 'pack') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/packaging">packaging</a></li>
     <li <?php if(strpos($page->scope, 'video') !== false): ?>class="scope-on"<?php endif ?> ><a href="/scope/video">video</a></li>

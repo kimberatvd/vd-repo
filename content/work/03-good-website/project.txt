@@ -1,0 +1,25 @@
+﻿Title: good e-commerce site
+
+----
+
+Probsol: yesps
+
+----
+
+Problem: Since 2001, the unique shop Good has been Boston’s go-to destination for gifts. Over the years it has moved down Charles Street and into a bigger space but with no e-commerce website, fans from outside the area needed to take a trip to Beacon Hill to shop there.
+
+----
+
+Solution: It’s not everyday that you get to create a site for one of your favorite stores but that’s exactly what Visual Dialogue did for Good. Connecting to their existing point-of-sale platform Lightspeed, we designed an on-line shopping site that brings the retail store experience to computers, tablets, and smart phones. Showcasing “New England style” with one-of-a-kind jewelry, accessories, and home goods, the site features products, news, and a blog that captures the travels and finds of owners Paul Niski and Kate Brizius. So if you can’t make it over to 133 Charles Street, you can shop anytime at (link:http://shopatgood.com text:shopatgood.com popup:yes).
+
+----
+
+Scope: copy, web, sms
+
+----
+
+Type: websites
+
+----
+
+Category: hr

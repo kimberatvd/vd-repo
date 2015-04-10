@@ -2,7 +2,8 @@
     
     <?php if ($page->title() == "home") :?>
     <div class="thumb hometext twobythree stamp">
-        For over 25 years, Visual Dialogue has helped leading organizations connect with their audiences. <br/>We bring together strategy, messaging, and design to create branding, websites, advertising, publications, and packaging. Interested in learning more? <br/>See examples of some of our favorite projects...
+        Visual Dialogue creates and activates brands through strategy, messaging, and design. For over 25 years, we’ve helped our clients tackle their marketing challenges through branding, websites, advertising, publications, and packaging. We’re ready to take on your challenge.
+
     </div>
     <?php endif ?>
 
