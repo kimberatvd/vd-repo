@@ -14,7 +14,7 @@ Solution: Visual Dialogue designed the department’s annual report to give the 
 
 ----
 
-Scope: pub
+Scope: art, pub
 
 ----
 

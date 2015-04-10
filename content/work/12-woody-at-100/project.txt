@@ -14,7 +14,7 @@ Solution: To represent the direct nature of his music, Visual Dialogue used a ne
 
 ----
 
-Scope: pub, pack
+Scope: art, pub, pack
 
 ----
 

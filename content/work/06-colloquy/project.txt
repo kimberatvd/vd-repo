@@ -14,7 +14,7 @@ Solution: Colloquy means “a conversation or dialogue,” so who better than Vi
 
 ----
 
-Scope: identity, pub
+Scope: identity, art, pub
 
 ----
 

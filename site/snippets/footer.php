@@ -10,12 +10,12 @@
 
 	<div class="one-col float second">
 		<strong>services</strong><br/>
-		<a href="/scope/research">research</a><br/>
-		<a href="/scope/marketing-strategy">marketing strategy</a><br/>
+		<a href="/scope/research-strategy">research &amp; strategy</a><br/>
     <a href="/scope/copywriting">copywriting</a><br/>
 		<a href="/scope/brand-positioning">brand positioning</a><br/>
 		<a href="/scope/naming">naming</a><br/>
 		<a href="/scope/visual-identity">visual identity</a><br/>
+    <a href="/scope/art-direction">art direction</a><br/>
 	</div>
 
 	<div class="one-col float third">

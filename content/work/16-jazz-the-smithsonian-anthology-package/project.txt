@@ -14,7 +14,7 @@ Solution: Visual Dialogue referenced the type and colors of the original Folkway
 
 ----
 
-Scope: pub, pack
+Scope: art, pub, pack
 
 ----
 
